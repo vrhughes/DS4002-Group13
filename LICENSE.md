@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 vrhughes
+Copyright (c) 2025 DS 4002 Group 13
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
