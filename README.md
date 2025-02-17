@@ -14,14 +14,33 @@ Our goal is utilize BERT [^fn3] to analyze the sentiment of Twitter users’ pos
 ## Software / Platform
 
 We are using Jupter Notebooks for this program that run on Python 3 (prefferably 3.10+). Our code can be run on **Google Colab** by importing our notebooks. The following files require access to a GPU (or else will be very slow):
-1. File1 
-2. File2
 
-For these files, a **Windows** or **Linux** environment is needed with `Pytorch`, `Tensorflow`, and `Transformers` packages and access to a Nvidia GPU and respective drivers. Additonal packages will be included in the files themselves as a runtime dependency. These files can alternatively be run on **Google Colab** or **Rivanna**. 
+1. bert_sentiment_analysis.ipynb
 
-All additional files will need a Python environment with the packages `Pandas`, `Numpy`, `Matplotlib`, `Seaborn` and can be run on **Windows**, **Linux**, or **Mac**
+For this file, a **Windows** or **Linux** environment is needed with `Pytorch`, `Tensorflow`, and `Transformers` packages and access to a Nvidia GPU and respective drivers. Additonal packages will be included in the files themselves as a runtime dependency. These files can alternatively be run on **Google Colab** or **Rivanna**. 
+
+All additional files will need a Python environment with the packages `Pandas`, `Numpy`, `Matplotlib`, `Seaborn` and with support for `Jupyter Notebooks` and can be run on **Windows**, **Linux**, or **Mac**
 
 ## Documentation
+
+The files and folders are broken down into this structure
+
+```
+- root
+  -- DATA
+    -- twitter_sentiment_data.csv
+    -- random_sample.csv
+  -- SCRIPTS
+    -- script files for data analysis
+  -- OUTPUT
+    -- generated data files
+    -- charts
+  -- README.md
+  -- License.md
+```
+
+The DATA folder contains the datasets which we used in our project. The tweet dataset (twitter_sentiment_data.csv) and a random sample of the data (random_sample.csv) is found there. The SCRIPTS folder contains multiple `Jupyter Notebooks` that have been used to analyse the data, run BERT, create graphs, and do error analysis. The OUTPUT folder contains generated datasets from SCRIPTS. These generated datasets are also used in SCRIPTS to reference trained BERT data, manual labels, etc... with the baseline data. The OUTPUT folder also contains images of charts that are present in the SCRIPTS.
+
 
 ## Steps To Reproduce
 
