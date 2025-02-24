@@ -51,6 +51,12 @@ git clone https://github.com/vrhughes/DS4002-Group13.git
 
 You can run the individual files locally (provided you follow the specifications listed in - [Software / Platform](##Software%20/%20Platform)) or can run them in **Rivanna** or **Google Colab**. All data files are provided and all outputs will overwrite the output images or files will overwrite previously existing output files.
 
+The scripts can be run in the order shown by their filenames. While this is not a strict requirements, note that some files need to be run before others in the order shown below
+
+1. twitterccdata.ipynb, twitter_cc_data_frequencies.ipynb, EDA.ipynb, bert_sentiment_analysis.ipynb
+2. random_data_subset.ipynb
+3. bert_error_analysis.ipynb, bert_graphs.ipynb
+
 ## References
 
 [^fn1]: “AI study finds nearly 15% of Americans deny climate change is real, shaped by social media influencers: Public figures such as Trump play outsized role in influencing beliefs,” School for Environment and Stability at the University of Michigan, https://seas.umich.edu/news/ai-study-finds-nearly-15-americans-deny-climate-change-real-shaped-social-media-influencers [accessed January 31, 2025). 
